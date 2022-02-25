@@ -1,12 +1,12 @@
 package chap01;
 
 public class RunStatementExample {
-	public static void main(String[] args) {
-		int x = 1; //º¯¼ö x¸¦ ¼±¾ğÇÏ°í 1À» ÀúÀå
-		int y = 2; //º¯¼ö y¸¦ ¼±¾ğÇÏ°í 2¸¦ ÀúÀå
-		int result = x + y; //º¯¼ö result¸¦ ¼±¾ğÇÏ°í x¿Í y¸¦ ´õÇÑ °ªÀ» ÀúÀå
-		System.out.println(x + "+" + y + "=" + result); //ÄÜ¼Ö¿¡ Ãâ·ÂÇÏ´Â ¸Ş¼Òµå È£Ãâ
-		
-		// ½ÇÇà ´ÜÃàÅ° : ctrl + f11
-	}
+  public static void main(String[] args) {
+	int x = 1; // ë³€ìˆ˜ xë¥¼ ì„ ì–¸í•˜ê³  1ì„ ì €ì¥
+	int y = 2; // ë³€ìˆ˜ yë¥¼ ì„ ì–¸í•˜ê³  2ë¥¼ ì €ì¥
+	int result = x + y; // ë³€ìˆ˜ resultë¥¼ ì„ ì–¸í•˜ê³  xì™€ yë¥¼ ë”í•œ ê°’ì„ ì €ì¥
+	System.out.println(x + "+" + y + "=" + result); // ì½˜ì†”ì— ì¶œë ¥í•˜ëŠ” ë©”ì†Œë“œ í˜¸ì¶œ
+	
+	// ì‹¤í–‰ ë‹¨ì¶•í‚¤ : ctrl + f11
+  }
 }

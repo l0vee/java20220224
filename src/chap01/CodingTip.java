@@ -3,27 +3,31 @@ package chap01;
 public class CodingTip {
 	// hint : ctrl + space
 	
-	// main : ¸Ş¼Òµå ÄÚµå ´ÜÃà Å°¿öµå : main
+	// main ë©”ì†Œë“œ ì½”ë“œ ë‹¨ì¶• í‚¤ì›Œë“œ : main
 	public static void main(String[] args) {
 
-		// ÀÚµ¿ÄÚµåÆ÷¸ËÆÃ : ctrl + shift + f
+		// ìë™ì½”ë“œí¬ë§·íŒ… : ctrl + shift + f
 		
-		// ÄÜ¼Ö Ãâ·Â
-		System.out.println("Ãâ·ÂÇÒ ÅØ½ºÆ®");
+		// ì½˜ì†” ì¶œë ¥
+		System.out.println("ì¶œë ¥í•  í…ìŠ¤íŠ¸");
 		
-		// ÄÜ¼Ö Ãâ·Â ÄÚµå ´ÜÃà Å°¿öµå : sysout
-		System.out.println("Ãâ·ÂÇÒ ÅØ½ºÆ®"); //sysout
-		System.out.println("Ãâ·ÂÇÒ ÅØ½ºÆ®"); //sout
+		// ì½˜ì†” ì¶œë ¥ ì½”ë“œ ë‹¨ì¶• í‚¤ì›Œë“œ : sysout, sout
+		System.out.println("ì¶œë ¥í•  í…ìŠ¤íŠ¸");
+		System.out.println("ì¶œë ¥í•  í…ìŠ¤íŠ¸");
 		
-		//½ÇÇà : ctrl +f11
+		// ì‹¤í–‰ : ctrl + f11
 		
-		//ÁÖ¼®: ctrl+ /
+		// ì£¼ì„ : ctrl + /
 		
-		//Ã¢Å©±âº¯°æ :ctrl +m
+		// ì°½í¬ê¸°ë³€ê²½ : ctrl + m
 		
-		//»õÆÄÀÏ : ctrl + n
+		// ìƒˆíŒŒì¼ : ctrl + n
 		
-		//ÀúÀå : ctrl + s
-
+		// ì €ì¥ : ctrl + s
 	}
 }
+
+
+
+
+
