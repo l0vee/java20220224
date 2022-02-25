@@ -3,7 +3,7 @@ package chap02.lecture;
 public class C13TypeConversion {
 
 	public static void main(String[] args) {
-		//실수끼리 연산 결과ㅏ: 큰 타입으로
+		//실수끼리 연산 결과: 큰 타입으로
 		float f1 = 3.14F;
 		float f2 = 9.1F;
 		
