@@ -28,21 +28,21 @@ public class C06Logical {
 		//short circuit
 		int i = 3;
 		System.out.println((i>0) && (i++>0)); // true // 양변을 모두 판단해서 우측 연산하고 i값에 반영
-		System.out.println(i);// 4
+		System.out.println(i);// 4 // 좌측 true 여서 우측도 확인해보려고 연산했더니 4 됨
 		
-		System.out.println((i<0) && (i++ <0)); // false // 단락 (short circuit) , 좌변에서 false니깐 i값 반영안됨
-		System.out.println(i); //4
+		System.out.println((i<0) && (i++ <0)); // false // 좌변에서 false니깐 i값 반영안됨
+		System.out.println(i); //4 // 4로 시작했는데 좌측 false라 우측 연산 안한거임.
 		
-		System.out.println((i<0) || (i++ <0)); // false // 좌변만 봐도 각나옴
-		System.out.println(i); // 5
+		System.out.println((i<0) || (i++ <0)); // false // 좌우 둘다 false지만, 좌측 false면 우측 검사
+		System.out.println(i); // 5 // 4로 시작했는데 ||는 좌측 false 일때 우측 검사하므로 연산함
 		
 		System.out.println((i>0) || (i++> 0)); // true // short circuit
-		System.out.println(i); // 5// 연산을 하지 않았구나
+		System.out.println(i); // 5// 연산을 하지 않았구나 좌측 true면 그냥 true라서 검사 안함
 		
-		System.out.println((i>0) & (i++>0)); //true
-		System.out.println(i);
+		System.out.println((i>0) & (i++>0)); //true (이건 short circuit 아님)
+		System.out.println(i); //6
 		
-		System.out.println((i<0) & (i++<0)); // short circuit xxxxxx
+		System.out.println((i<0) & (i++<0)); // false // short circuit xxxxxx
 		System.out.println(i); //7 연산했구나
 		
 		// ^ (XOR) EXCLUSIVE OR (배타적 OR)
