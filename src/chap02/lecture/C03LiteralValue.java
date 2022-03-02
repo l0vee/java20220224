@@ -32,6 +32,9 @@ public class C03LiteralValue {
 		System.out.println("Hello World!@#$");
 		System.out.println("Hello\tworld"); // \t 탭
 		System.out.println("Hello\nworld"); // \n 다음줄
+		System.out.println("I'm ireoman");
+		System.out.println("I am \"ironman\""); // \"
+		System.out.println("backslasj \\");
 		
 		// 논리 (boolean) literal (true, false)
 		System.out.println(true);
