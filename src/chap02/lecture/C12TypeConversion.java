@@ -34,7 +34,7 @@ public class C12TypeConversion {
 		
 		System.out.println(l3);
 		
-		// 서로 다른 타입끼리연산시 연산결과 : 큰타입
+		// 서로 다른 타입끼리 연산시 연산결과 : 큰타입
 		long l4 = 2000000000;
 		int i5 = 1000000000;
 		
