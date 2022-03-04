@@ -40,8 +40,8 @@ public class C08For {
 		
 		int min = arr1[0];
 		for (int i=1; i< arr1.length; i++) {
-			if (min > arr1[i]) {
-				min = arr1 [i];
+			if (min > arr1[i]) { // 비교후 더 작은값을
+				min = arr1 [i]; // min으로 만든다.
 			}
 		}
 		System.out.println(min);
