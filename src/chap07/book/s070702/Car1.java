@@ -1,7 +1,5 @@
 package chap07.book.s070702;
-
-import chap07.book.exercise.exercise07.Tire;
-
+//p319
 // 하나의 배열로 객체 관리
 // s070702와 동일함
 public class Car1 {

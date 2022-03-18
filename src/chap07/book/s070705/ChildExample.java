@@ -1,5 +1,6 @@
 package chap07.book.s070705;
 //강제 타입변환
+//p.326
 public class ChildExample {
 	public static void main(String[] args) {
 		Parent parent = new Child();
