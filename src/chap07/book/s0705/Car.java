@@ -3,8 +3,13 @@ package chap07.book.s0705;
 public class Car {
 //필드
 	public int speed;
+	public Object model;
 	
-//메소드
+public Car(Object model2) {
+		// TODO Auto-generated constructor stub
+	}
+
+	//메소드
 	public void speedUp( ) {speed += 1;}
 	
 //final 메소드
