@@ -4,7 +4,7 @@ public class C02Switch {
 	public static void main(String[] args) {
 		System.out.println("stmt 1");
 		
-		switch (1) {
+		switch (3) {
 			case 1 :
 				System.out.println("stmt 2");
 				break;

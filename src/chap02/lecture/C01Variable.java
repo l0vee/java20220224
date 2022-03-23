@@ -38,3 +38,7 @@ public class C01Variable {
 		var3 = 11;
 		System.out.println(var3);
 		
+	}
+	
+}
+		
