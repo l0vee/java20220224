@@ -59,3 +59,5 @@ public class App03 {
 				
 	}
 }
+
+//Stream을 다른 Stream으로 감쌀 수 있다.
